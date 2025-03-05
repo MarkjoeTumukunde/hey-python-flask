@@ -21,7 +21,7 @@ Before running the application, ensure that you have the following installed:
 - [Docker](https://www.docker.com/get-started)
 - [Git](https://git-scm.com/downloads)
   
-##Role of Kubernetes in container orchestration
+## Role of Kubernetes in container orchestration
 **Kubernetes** is an open source platform designed to automate the development, scaling and management of containerized applications.
 It acts as ***a container orchestrator*** that makes it easier to run large scale applications reliably by managing the lifecycle of containers.
 In the case of my application, Kubernetes can be used to manage multiple instances of the dockerized flask application hence ensuring that it is always available and can handle varying levele of traffic.
