@@ -19,6 +19,15 @@ Before running the application, ensure that you have the following installed:
 
 - [Docker](https://www.docker.com/get-started)
 - [Git](https://git-scm.com/downloads)
+### the process of containerizing a basic web application using Docker.
+- Create the Flask web application
+- Create a requirements.txt File. This is necessary to specify all the dependencies that the Flask application needs.
+- Create the Dockerfile. The Dockerfile is the script that defines how the Docker image is built. It contains all the instructions needed to setup the container environemtn, install dependencies, copy the application and specify how to run it
+- Build the docker image. This is achieved by running the following commands ***docker build -t imagename .***
+- Run the docker container
+- Access the Flask Application. Once the container is running, we can access the Flask application from a web browser at http//localhost:port eg http://localhost:5000
+- Stop the Docker container. To stop the running container we press ***CTRL + C*** in the terminal where the container is running.
+- Push the Docker image to the Docker Hub. This is optional but if you want to share your Docker image, you can deploy it to a cloud services like Docker Hub.
   
 ### Role of Kubernetes in container orchestration
 **Kubernetes** is an open source platform designed to automate the development, scaling and management of containerized applications.
